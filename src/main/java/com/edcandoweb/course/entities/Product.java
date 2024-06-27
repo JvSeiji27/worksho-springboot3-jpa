@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -15,6 +17,7 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import jakarta.persistence.Transient;
 
@@ -25,7 +28,7 @@ public class Product implements Serializable{
 	private static final long serialVersionUID = 1L;
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer id;
+	private Long id;
 	private String name;
 	private String description;
 	private Double price;
@@ -37,14 +40,13 @@ public class Product implements Serializable{
 	inverseJoinColumns = @JoinColumn(name = "category_id"))
 	private Set <Category> categories = new HashSet<>();
 	
-	@Transient
-	private List <Order> orders = new ArrayList<>();
+
 	
 	public Product() {
 		
 	}
 
-	public Product(Integer id, String name, String description, Double price, String imgUrl) {
+	public Product(Long id, String name, String description, Double price, String imgUrl) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -53,11 +55,11 @@ public class Product implements Serializable{
 		this.imgUrl = imgUrl;
 	}
 
-	public Integer getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -100,16 +102,11 @@ public class Product implements Serializable{
 	
 
 
-	public List<Order> getOrders() {
-		return orders;
-	}
-
 
 
 	public Set<Category> getCategories() {
 		return categories;
 	}
-
 
 
 	@Override

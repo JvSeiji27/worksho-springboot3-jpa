@@ -1,0 +1,77 @@
+[33mcommit eabfefe0d3ccfb9608acad6e55d5820a7de5f7a7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: João Vitor Seiji Sato Calvaro <joaovssc@gmail.com>
+Date:   Thu Jun 27 14:12:49 2024 -0300
+
+    [200~OrderItem, many-to-many association with extra attributes PART 1
+
+[33mcommit 41d061997fdf7dd3c76b7ba889b1062a06f49b1c[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: João Vitor Seiji Sato Calvaro <joaovssc@gmail.com>
+Date:   Thu Jun 27 12:21:50 2024 -0300
+
+    OrderItem, many-to-many association with extra attributes PART 1
+
+[33mcommit 5cf3b2b91a07fd1ab4d1fdb00b0b9ebd532e6485[m
+Author: João Vitor Seiji Sato Calvaro <joaovssc@gmail.com>
+Date:   Wed Jun 26 20:55:39 2024 -0300
+
+    Many to many association with JoinTable
+
+[33mcommit aae77157ad65fb58b06e1fe26994f62a96cc814f[m
+Author: João Vitor Seiji Sato Calvaro <joaovssc@gmail.com>
+Date:   Wed Jun 26 19:25:11 2024 -0300
+
+    Product
+
+[33mcommit fb1e141835b234cce94c9d3609e71a1a6cfb98b1[m
+Author: João Vitor Seiji Sato Calvaro <joaovssc@gmail.com>
+Date:   Wed Jun 26 18:47:13 2024 -0300
+
+    Category
+
+[33mcommit 4b8a07630c05178ac44266c878c33fee8890ec51[m
+Author: João Vitor Seiji Sato Calvaro <joaovssc@gmail.com>
+Date:   Wed Jun 26 18:30:03 2024 -0300
+
+    OrderStatus enum
+
+[33mcommit 6c53c49fba480cf82a7e9dd5d949849104844401[m
+Author: João Vitor Seiji Sato Calvaro <joaovssc@gmail.com>
+Date:   Tue Jun 25 21:40:41 2024 -0300
+
+    Order, Instant, ISO 8601 - PART 2
+
+[33mcommit bab4521fcc1b98f5277d68f2fa5be17e55fe7641[m
+Author: João Vitor Seiji Sato Calvaro <joaovssc@gmail.com>
+Date:   Tue Jun 25 21:20:44 2024 -0300
+
+    Order, Instant, ISO 8601 - PART 1
+
+[33mcommit cc1e95dccaa6a65ea6fd3028ecc4d4f053eacd10[m
+Author: João Vitor Seiji Sato Calvaro <joaovssc@gmail.com>
+Date:   Tue Jun 25 20:45:38 2024 -0300
+
+    Service layer, component registration
+
+[33mcommit 1e45d3126be7c5525a16131d01c232c88f9d40ca[m
+Author: João Vitor Seiji Sato Calvaro <joaovssc@gmail.com>
+Date:   Tue Jun 25 20:44:46 2024 -0300
+
+    JPA repository, dependency injection, database seeding
+
+[33mcommit f6f92c03bfdc0be2a7404bcfc1ed11cf45663a39[m
+Author: João Vitor Seiji Sato Calvaro <joaovssc@gmail.com>
+Date:   Tue Jun 25 18:41:23 2024 -0300
+
+    H2 database, test profile, JPA
+
+[33mcommit 8a10c5c330b4384d64575b87464d5d9ec648703b[m
+Author: João Vitor Seiji Sato Calvaro <joaovssc@gmail.com>
+Date:   Tue Jun 25 18:06:02 2024 -0300
+
+    User entity and resource
+
+[33mcommit 475b54d83c94be8d9f5d60ea9b835c234030829d[m
+Author: João Vitor Seiji Sato Calvaro <joaovssc@gmail.com>
+Date:   Tue Jun 25 17:38:45 2024 -0300
+
+    Project created
